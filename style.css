@@ -2,6 +2,17 @@ body {
 background-color: snow
 }
 
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+text-align: center;
+}
+
 li {
-border: 5px brown solid;
+border: 3px maroon solid;
+margin: 10px;
+text-align: center;
 }
